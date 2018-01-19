@@ -7,7 +7,7 @@
 
         $scope.city = cityService.city;
 
-        $scope.days = $routeParams.days * 8 || 8;
+        $scope.days = $routeParams.days * 8 || '8';
 
         $scope.weatherApi = $resource('http://api.openweathermap.org/data/2.5/forecast',
             {get: {method: 'GET'}}
