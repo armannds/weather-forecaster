@@ -6,17 +6,17 @@
     .config(function ($routeProvider) {
       $routeProvider
         .when('/', {
-          templateUrl: 'home/home.htm',
+          templateUrl: 'home/home.html',
           controller: 'HomeCtrl',
           controllerAs: 'home'
         })
         .when('/forecast', {
-          templateUrl: 'forecast/forecast.htm',
+          templateUrl: 'forecast/forecast.html',
           controller: 'ForecastCtrl',
           controllerAs: 'forecast'
         })
         .when('/forecast/:days', {
-          templateUrl: 'forecast/forecast.htm',
+          templateUrl: 'forecast/forecast.html',
           controller: 'ForecastCtrl',
           controllerAs: 'forecast'
         })
