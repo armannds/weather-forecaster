@@ -3,4 +3,4 @@
 /.tmp
 /.sass-cache
 /bower_components
-config.yml
+/app/config/openweathermap.api.config.js
